@@ -6,7 +6,7 @@
 
   <ItemGroup>
     <Folder Include="Compose\" />
-    <Folder Include="condition\" />
+    <Folder Include="Condition\" />
     <Folder Include="DI\" />
     <Folder Include="Move\" />
     <Folder Include="Vacation\" />

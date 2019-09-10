@@ -25,3 +25,6 @@ hs_err_pid*
 /csharp/.vs/refactoring/v15
 /csharp/refactoring/obj
 /.vs
+/Refactoring.Tests/bin/Debug
+/Refactoring.Tests/obj/Debug
+/csharp/refactoring/bin/Debug/netstandard2.0
