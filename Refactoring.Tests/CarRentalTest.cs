@@ -1,6 +1,5 @@
 ﻿namespace Refactoring.Tests
 {
-	using System;
 	using Microsoft.VisualStudio.TestTools.UnitTesting;
 	using Refactoring.Vacation;
 
@@ -14,7 +13,6 @@
 
 
 		[TestInitialize]
-
 		public void SetUp()
 		{
 			carRental = new CarRental();
@@ -27,7 +25,6 @@
 
 
 		[TestMethod]
-
 		public void start_trip_status_should_be_started()
 		{
 			carRental.StartTrip(rentalAgreement);
@@ -40,7 +37,6 @@
 
 
 		[TestMethod]
-
 		public void end_trip_status_should_be_completed()
 		{
 			carRental.StartTrip(rentalAgreement);
@@ -53,7 +49,6 @@
 
 
 		[TestMethod]
-
 		public void no_additional_fuel_or_damage_trip_price_should_be_package_price()
 		{
 
@@ -69,7 +64,6 @@
 
 
 		[TestMethod]
-
 		public void more_km_trip_price_should_be_more()
 		{
 
@@ -87,7 +81,6 @@
 
 
 		[TestMethod]
-
 		public void less_fuel_trip_price_should_be_more()
 		{
 
@@ -104,7 +97,6 @@
 
 
 		[TestMethod]
-
 		public void damage_insured_trip__price_should_be_package_price()
 		{
 
@@ -121,7 +113,6 @@
 
 
 		[TestMethod]
-
 		public void damage_not_insured_trip__price_should_be_more()
 		{
 			Vehicle vehicle = new Vehicle(1000, 2, 1);

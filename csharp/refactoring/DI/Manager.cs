@@ -4,7 +4,8 @@ namespace Refactoring.DI
 
 
 
-	public class Manager {
+	public class Manager
+	{
 		private readonly List<Developer> developers = new List<Developer>();
 		private readonly List<Tester> testers = new List<Tester>();
 

@@ -1,9 +1,10 @@
 namespace Refactoring.Move
 {
 
-	public class Employee {
-	private readonly string name;
-    private readonly string email;
+	public class Employee
+	{
+		private readonly string name;
+		private readonly string email;
 
 		public Employee(string name, string email) {
 			this.name = name;

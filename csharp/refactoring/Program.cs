@@ -1,5 +1,4 @@
 ﻿using System;
-
 namespace Refactoring
 {
 	public static class Program

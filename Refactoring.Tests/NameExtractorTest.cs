@@ -1,9 +1,9 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Refactoring.Compose;
-using System.Collections.Generic;
-
-namespace Refactoring.Tests
+﻿namespace Refactoring.Tests
 {
+	using Microsoft.VisualStudio.TestTools.UnitTesting;
+	using Refactoring.Compose;
+	using System.Collections.Generic;
+
 	[TestClass]
 	public class NameExtractorTest
 	{

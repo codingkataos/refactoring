@@ -1,10 +1,9 @@
-
-
 namespace Refactoring.condition
 {
 	using System;
 
-	public class SeasonalDiscount {
+	public class SeasonalDiscount
+	{
 		private static DateTime SUMMER_START = new DateTime();
 		private static DateTime SUMMER_END = new DateTime();
 		private double winterRate = 20;
