@@ -17,9 +17,9 @@ namespace Refactoring.move
 			get{ return author; }
 		}
 
-		public string exportToPDF()
+		public string ExportToPDF()
 		{
-			return convertToPDF();
+			return ConvertToPDF();
 		}
 
 		public string Name
@@ -27,12 +27,12 @@ namespace Refactoring.move
 			get { return name; }
 		}
 
-		public void sendContentTo(string email)
+		public void SendContentTo(string email)
 		{
 			// send content to email.
 		}
 
-		private string convertToPDF()
+		private string ConvertToPDF()
 		{
 			return content;
 		}

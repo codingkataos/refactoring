@@ -4,7 +4,7 @@ namespace Refactoring.Tell
 	public class MediaController
 	{
 
-		public void isAppropriate(Person viewer)
+		public void IsAppropriate(Person viewer)
 		{
 			int age = viewer.Age;
 
